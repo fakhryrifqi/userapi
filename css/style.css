@@ -1,0 +1,17 @@
+.active {
+    background-color: grey;
+    border: 2px solid white;
+}
+
+#brand {
+    font-size: 20px;
+}
+
+body {
+    background: url('../img/bg2.jpeg');
+    font-family: 'Times New Roman', Times, serif;
+}
+
+li {
+    font-size: 17px;
+}
