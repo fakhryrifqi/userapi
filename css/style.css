@@ -10,8 +10,31 @@
 body {
     background: url('../img/bg2.jpeg');
     font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
 }
 
 li {
     font-size: 17px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 75%;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    li {
+        font-size: 15px;
+    }
+
+    #brand {
+        font-size: 17px;
+    }
 }
