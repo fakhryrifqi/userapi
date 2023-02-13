@@ -15,36 +15,36 @@
 </head>
 
 <body>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-        <a id="brand" class="navbar-brand" href="index.php">Sistem Informasi Users</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a id="brand" class="navbar-brand" href="index.php">Sistem Informasi Users</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.php">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="detail_address.php">Detail Address</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="info_company.php">Info Company</a>
-            </li>
-          </ul>
-        </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.php">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="detail_address.php">Detail Address</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="info_company.php">Info Company</a>
+          </li>
+        </ul>
       </div>
-    </nav>
-  </header>
+    </div>
+  </nav>
   <div class="container-fluid mt-3">
     <h1 class="text-center">List Data User</h1>
     <hr>
+    <div id="detail_data"></div>
+    <hr>
     <div class="table-responsive">
-      <table class="table">
+      <table class="table" id="tableId">
         <thead class="thead-dark">
           <tr>
             <th>ID</th>
@@ -58,7 +58,7 @@
           </tr>
         </thead>
         <tbody id="table_data">
-  
+
         </tbody>
       </table>
     </div>
